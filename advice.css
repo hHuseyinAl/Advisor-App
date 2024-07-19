@@ -1,0 +1,60 @@
+body {
+  background: url("fotu2.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+button,
+button:focus {
+  font-size: 17px;
+  padding: 10px 25px;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+  border: 2px solid rgb(50, 50, 50);
+  border-bottom: 5px solid rgb(50, 50, 50);
+  transform: translate(0, -3px);
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  flex-direction: column;
+}
+
+.card-body {
+  margin: 50px;
+  text-decoration: wavy;
+  font-size: xx-large;
+  font-style: italic;
+  color: white;
+  text-shadow: 4px 4px 8px black;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 30px;
+  text-shadow: 4px 4px 8px black;
+  font-style: italic;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.buton2Div {
+  display: none;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#buton2 {
+  position: absolute;
+  top: -50px;
+}
